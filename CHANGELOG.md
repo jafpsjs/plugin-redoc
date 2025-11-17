@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.0...v1.0.1) (2025-11-17)
+
+
+### Bug Fixes
+
+* Remove redoc js map ([90ec220](https://github.com/jafpsjs/plugin-redoc/commit/90ec2200a7d5ec1b0a4beaa1367f5c3da47f7c1c))
+
 ## 1.0.0 (2025-11-17)
 
 
