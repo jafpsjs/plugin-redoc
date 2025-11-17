@@ -99,7 +99,7 @@ export default fp<RedocPluginOptions>(
         await res.sendFile("redoc.html");
       }
     );
-    const files = ["redoc.standalone.js", "redoc.standalone.js.map", "favicon.svg"];
+    const files = ["redoc.standalone.js", "favicon.svg"];
     for (const file of files) {
       app.get(
         `${prefix}/${file}`,
