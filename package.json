@@ -1,25 +1,25 @@
 {
-  "name": "@jafps/plugin-template",
+  "name": "@jafps/plugin-redoc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fastify plugin for OpenAPI 3.1 API reference documentation.",
   "type": "module",
-  "private": true,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
     "test": "node --enable-source-maps --experimental-test-coverage --test-coverage-exclude \"src/**/__tests__/*.ts\" --test \"./dist/**/__tests__/*.{spec,test}.js\"",
-    "lint": "eslint"
+    "lint": "eslint",
+    "script:redoc": "node script/redoc.js"
   },
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jafpsjs/plugin-template.git"
+    "url": "git+https://github.com/jafpsjs/plugin-redoc.git"
   },
   "bugs": {
-    "url": "https://github.com/jafpsjs/plugin-template/issues"
+    "url": "https://github.com/jafpsjs/plugin-redoc/issues"
   },
-  "homepage": "https://github.com/jafpsjs/plugin-template#readme",
+  "homepage": "https://github.com/jafpsjs/plugin-redoc#readme",
   "imports": {},
   "exports": {
     ".": {
@@ -31,19 +31,28 @@
     "fastify-plugin"
   ],
   "files": [
+    "public/**/*",
     "dist/**/*",
     "!dist/**/__tests__/**/*"
   ],
   "devDependencies": {
+    "@fastify/helmet": "^13.0.2",
+    "@jafps/plugin-openapi": "^1.0.0",
+    "@jafps/plugin-schema": "^1.0.0",
     "@joshuaavalon/eslint-config-typescript": "^10.0.0",
     "@types/node": "^24.9.1",
     "eslint": "^9.38.0",
     "fastify": "^5.6.1",
     "globals": "^16.4.0",
+    "redoc": "2.5.2",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "fastify-plugin": "^5.1.0"
+    "@fastify/static": "^8.3.0",
+    "@fontsource/montserrat": "5.2.8",
+    "@fontsource/roboto": "5.2.8",
+    "fastify-plugin": "^5.1.0",
+    "typebox": "^1.0.53"
   }
 }
