@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.1...v1.0.2) (2025-11-28)
+
+
+### Bug Fixes
+
+* Migrate to pnpm ([ca18e77](https://github.com/jafpsjs/plugin-redoc/commit/ca18e77bb7ddd817d5fa5f1a13986a3361126b70))
+
 ## [1.0.1](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.0...v1.0.1) (2025-11-17)
 
 
