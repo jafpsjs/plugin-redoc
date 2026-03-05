@@ -1,7 +1,9 @@
 import assert from "node:assert/strict";
 import { before, describe, it } from "node:test";
 import helmetPlugin from "@fastify/helmet";
+import errorPlugin from "@jafps/plugin-error";
 import openapiPlugin from "@jafps/plugin-openapi";
+import schemaPlugin from "@jafps/plugin-schema";
 import fastify from "fastify";
 import redocPlugin from "../index.js";
 import type { FastifyInstance } from "fastify";
@@ -11,6 +13,8 @@ describe("@jafps/plugin-redoc", () => {
   before(async () => {
     app = await fastify();
     await app.register(helmetPlugin, { global: false });
+    await app.register(errorPlugin);
+    await app.register(schemaPlugin);
     await app.register(openapiPlugin, {
       openapi: {
         info: {

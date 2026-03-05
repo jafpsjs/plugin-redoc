@@ -37,6 +37,7 @@
   ],
   "devDependencies": {
     "@fastify/helmet": "^13.0.2",
+    "@jafps/plugin-error": "^1.0.2",
     "@jafps/plugin-openapi": "^1.2.1",
     "@jafps/plugin-schema": "^1.2.7",
     "@joshuaavalon/eslint-config-javascript": "^11.0.3",
