@@ -77,6 +77,7 @@ export default fp<RedocPluginOptions>(
           contentSecurityPolicy: {
             directives: {
               "font-src": ["'self'"],
+              "script-src": ["'self'", "'unsafe-inline'"],
               "style-src": ["'self'", "'unsafe-inline'"],
               "worker-src": ["'self'", "blob:"]
             },
