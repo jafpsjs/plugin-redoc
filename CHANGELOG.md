@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.3...v1.0.4) (2026-03-23)
+
+
+### Bug Fixes
+
+* Fix CSP ([718fe6f](https://github.com/jafpsjs/plugin-redoc/commit/718fe6fef5bd82e9e51cdc01188d29c64fa98412))
+
 ## [1.0.3](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.2...v1.0.3) (2026-03-05)
 
 

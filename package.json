@@ -1,6 +1,6 @@
 {
   "name": "@jafps/plugin-redoc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fastify plugin for OpenAPI 3.1 API reference documentation.",
   "type": "module",
   "scripts": {
