@@ -1,5 +1,7 @@
 # @jafps/plugin-redoc
 
+[![NPM Version](https://img.shields.io/npm/v/%40jafps%2Fplugin-redoc)](https://www.npmjs.com/package/@jafps/plugin-redoc)
+
 Fastify plugin for OpenAPI 3.1 API reference documentation.
 
 It depends on [@fastify/helmet] and [@jafps/plugin-openapi].
