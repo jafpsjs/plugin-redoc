@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.4...v1.0.5) (2026-05-13)
+
+
+### Bug Fixes
+
+* Update dependencies ([7e7e9c0](https://github.com/jafpsjs/plugin-redoc/commit/7e7e9c0c4b5fdb4ad7aa636e85c2be82f548fb6e))
+
 ## [1.0.4](https://github.com/jafpsjs/plugin-redoc/compare/v1.0.3...v1.0.4) (2026-03-23)
 
 
